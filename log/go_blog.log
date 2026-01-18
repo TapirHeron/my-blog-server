@@ -1,1 +1,2 @@
 {"level":"INFO","time":"2026-01-18T15:09:20.337+0800","caller":"core/server.go:17","msg":"server run success on ","address":"0.0.0.0:8080"}
+{"level":"ERROR","time":"2026-01-18T17:54:43.714+0800","caller":"initialize/gorm.go:18","msg":"Failed to connect to Mysql:","error":"Error 1049 (42000): Unknown database 'go_blog'"}
