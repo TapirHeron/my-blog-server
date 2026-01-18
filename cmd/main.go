@@ -5,6 +5,7 @@ import (
 	"go.uber.org/zap"
 	"os"
 	"server/core"
+	"server/flag"
 	"server/global"
 	"server/initialize"
 )
@@ -17,6 +18,7 @@ func main() {
 	global.ESClient = initialize.ConnectES()
 	initialize.InitOther()
 	initialize.InitCron()
+	flag.InitFlag()
 	defer func(Redis *redis.Client) {
 		err := Redis.Close()
 		if err != nil {

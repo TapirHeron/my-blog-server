@@ -1,2 +1,60 @@
 {"level":"INFO","time":"2026-01-18T15:09:20.337+0800","caller":"core/server.go:17","msg":"server run success on ","address":"0.0.0.0:8080"}
 {"level":"ERROR","time":"2026-01-18T17:54:43.714+0800","caller":"initialize/gorm.go:18","msg":"Failed to connect to Mysql:","error":"Error 1049 (42000): Unknown database 'go_blog'"}
+{"level":"ERROR","time":"2026-01-18T17:58:13.446+0800","caller":"initialize/gorm.go:18","msg":"Failed to connect to Mysql:","error":"Error 1049 (42000): Unknown database 'go_blog'"}
+{"level":"ERROR","time":"2026-01-18T17:58:21.068+0800","caller":"initialize/gorm.go:18","msg":"Failed to connect to Mysql:","error":"Error 1049 (42000): Unknown database 'go_blog'"}
+{"level":"ERROR","time":"2026-01-18T17:58:39.430+0800","caller":"initialize/gorm.go:18","msg":"Failed to connect to Mysql:","error":"Error 1049 (42000): Unknown database 'go_blog'"}
+{"level":"ERROR","time":"2026-01-18T18:16:57.781+0800","caller":"initialize/gorm.go:18","msg":"Failed to connect to Mysql:","error":"Error 1049 (42000): Unknown database 'go_blog'"}
+{"level":"ERROR","time":"2026-01-18T18:19:05.690+0800","caller":"initialize/gorm.go:18","msg":"Failed to connect to Mysql:","error":"Error 1049 (42000): Unknown database 'go_blog'"}
+{"level":"INFO","time":"2026-01-18T18:19:29.783+0800","caller":"core/server.go:17","msg":"server run success on ","address":"0.0.0.0:8080"}
+{"level":"INFO","time":"2026-01-18T18:19:29.783+0800","caller":"initialize/cron.go:16","msg":"start","KeysAndValues":null}
+{"level":"INFO","time":"2026-01-18T18:21:03.299+0800","caller":"initialize/gorm.go:28","msg":"Connected to Mysql"}
+{"level":"INFO","time":"2026-01-18T18:21:03.322+0800","caller":"initialize/redis.go:22","msg":"Connected to Redis"}
+{"level":"INFO","time":"2026-01-18T18:21:03.322+0800","caller":"initialize/es.go:31","msg":"Connected to Elasticsearch"}
+{"level":"INFO","time":"2026-01-18T18:21:03.322+0800","caller":"core/server.go:17","msg":"server run success on ","address":"0.0.0.0:8080"}
+{"level":"INFO","time":"2026-01-18T18:21:03.322+0800","caller":"initialize/cron.go:16","msg":"start","KeysAndValues":null}
+{"level":"INFO","time":"2026-01-18T22:49:29.849+0800","caller":"initialize/gorm.go:28","msg":"Connected to Mysql"}
+{"level":"INFO","time":"2026-01-18T22:49:29.866+0800","caller":"initialize/redis.go:22","msg":"Connected to Redis"}
+{"level":"INFO","time":"2026-01-18T22:49:29.866+0800","caller":"initialize/es.go:31","msg":"Connected to Elasticsearch"}
+{"level":"INFO","time":"2026-01-18T22:49:29.866+0800","caller":"initialize/cron.go:16","msg":"start","KeysAndValues":null}
+{"level":"ERROR","time":"2026-01-18T22:49:29.867+0800","caller":"flag/enter.go:133","msg":"Application execution encountered an error:","error":"flag provided but not defined: -p"}
+{"level":"INFO","time":"2026-01-18T22:49:58.066+0800","caller":"initialize/gorm.go:28","msg":"Connected to Mysql"}
+{"level":"INFO","time":"2026-01-18T22:49:58.077+0800","caller":"initialize/redis.go:22","msg":"Connected to Redis"}
+{"level":"INFO","time":"2026-01-18T22:49:58.077+0800","caller":"initialize/es.go:31","msg":"Connected to Elasticsearch"}
+{"level":"INFO","time":"2026-01-18T22:49:58.078+0800","caller":"core/server.go:17","msg":"server run success on ","address":"0.0.0.0:8080"}
+{"level":"INFO","time":"2026-01-18T22:49:58.078+0800","caller":"initialize/cron.go:16","msg":"start","KeysAndValues":null}
+{"level":"INFO","time":"2026-01-18T22:51:04.655+0800","caller":"initialize/gorm.go:28","msg":"Connected to Mysql"}
+{"level":"INFO","time":"2026-01-18T22:51:04.665+0800","caller":"initialize/redis.go:22","msg":"Connected to Redis"}
+{"level":"INFO","time":"2026-01-18T22:51:04.665+0800","caller":"initialize/es.go:31","msg":"Connected to Elasticsearch"}
+{"level":"INFO","time":"2026-01-18T22:51:04.665+0800","caller":"cmd/main.go:22","msg":"init success"}
+{"level":"INFO","time":"2026-01-18T22:51:04.665+0800","caller":"core/server.go:17","msg":"server run success on ","address":"0.0.0.0:8080"}
+{"level":"INFO","time":"2026-01-18T22:51:04.665+0800","caller":"initialize/cron.go:16","msg":"start","KeysAndValues":null}
+{"level":"INFO","time":"2026-01-18T22:52:39.961+0800","caller":"initialize/gorm.go:28","msg":"Connected to Mysql"}
+{"level":"INFO","time":"2026-01-18T22:52:39.971+0800","caller":"initialize/redis.go:22","msg":"Connected to Redis"}
+{"level":"INFO","time":"2026-01-18T22:52:39.971+0800","caller":"initialize/es.go:31","msg":"Connected to Elasticsearch"}
+{"level":"INFO","time":"2026-01-18T22:52:39.971+0800","caller":"core/server.go:17","msg":"server run success on ","address":"0.0.0.0:8080"}
+{"level":"INFO","time":"2026-01-18T22:52:39.971+0800","caller":"initialize/cron.go:16","msg":"start","KeysAndValues":null}
+{"level":"INFO","time":"2026-01-18T22:55:54.476+0800","caller":"initialize/gorm.go:28","msg":"Connected to Mysql"}
+{"level":"INFO","time":"2026-01-18T22:55:54.486+0800","caller":"initialize/redis.go:22","msg":"Connected to Redis"}
+{"level":"INFO","time":"2026-01-18T22:55:54.486+0800","caller":"initialize/es.go:31","msg":"Connected to Elasticsearch"}
+{"level":"INFO","time":"2026-01-18T22:55:54.486+0800","caller":"initialize/cron.go:16","msg":"start","KeysAndValues":null}
+{"level":"ERROR","time":"2026-01-18T22:55:54.486+0800","caller":"flag/enter.go:106","msg":"unknown command","error":"unknown command"}
+{"level":"INFO","time":"2026-01-18T22:57:24.223+0800","caller":"initialize/gorm.go:28","msg":"Connected to Mysql"}
+{"level":"INFO","time":"2026-01-18T22:57:24.231+0800","caller":"initialize/redis.go:22","msg":"Connected to Redis"}
+{"level":"INFO","time":"2026-01-18T22:57:24.231+0800","caller":"initialize/es.go:31","msg":"Connected to Elasticsearch"}
+{"level":"INFO","time":"2026-01-18T22:57:24.231+0800","caller":"initialize/cron.go:16","msg":"start","KeysAndValues":null}
+{"level":"INFO","time":"2026-01-18T23:03:56.196+0800","caller":"initialize/gorm.go:28","msg":"Connected to Mysql"}
+{"level":"INFO","time":"2026-01-18T23:03:56.205+0800","caller":"initialize/redis.go:22","msg":"Connected to Redis"}
+{"level":"INFO","time":"2026-01-18T23:03:56.205+0800","caller":"initialize/es.go:31","msg":"Connected to Elasticsearch"}
+{"level":"INFO","time":"2026-01-18T23:03:56.205+0800","caller":"initialize/cron.go:16","msg":"start","KeysAndValues":null}
+{"level":"ERROR","time":"2026-01-18T23:03:56.512+0800","caller":"flag/enter.go:58","msg":"Failed to create table structure:","error":"Error 6125 (HY000): Failed to add the foreign key constraint. Missing unique key for constraint 'fk_advertisements_image' in the referenced table 'images'"}
+{"level":"INFO","time":"2026-01-18T23:06:14.764+0800","caller":"initialize/gorm.go:28","msg":"Connected to Mysql"}
+{"level":"INFO","time":"2026-01-18T23:06:14.774+0800","caller":"initialize/redis.go:22","msg":"Connected to Redis"}
+{"level":"INFO","time":"2026-01-18T23:06:14.774+0800","caller":"initialize/es.go:31","msg":"Connected to Elasticsearch"}
+{"level":"INFO","time":"2026-01-18T23:06:14.774+0800","caller":"core/server.go:17","msg":"server run success on ","address":"0.0.0.0:8080"}
+{"level":"INFO","time":"2026-01-18T23:06:14.774+0800","caller":"initialize/cron.go:16","msg":"start","KeysAndValues":null}
+{"level":"INFO","time":"2026-01-18T23:06:14.826+0800","caller":"initialize/gorm.go:28","msg":"Connected to Mysql"}
+{"level":"INFO","time":"2026-01-18T23:06:14.838+0800","caller":"initialize/redis.go:22","msg":"Connected to Redis"}
+{"level":"INFO","time":"2026-01-18T23:06:14.838+0800","caller":"initialize/es.go:31","msg":"Connected to Elasticsearch"}
+{"level":"INFO","time":"2026-01-18T23:06:14.838+0800","caller":"core/server.go:17","msg":"server run success on ","address":"0.0.0.0:8080"}
+{"level":"INFO","time":"2026-01-18T23:06:14.838+0800","caller":"initialize/cron.go:16","msg":"start","KeysAndValues":null}
+{"level":"ERROR","time":"2026-01-18T23:06:14.839+0800","caller":"core/server.go:18","msg":"listen tcp 0.0.0.0:8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}

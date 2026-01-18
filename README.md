@@ -48,3 +48,22 @@ personal blog server
 ├── hotSearch    (热搜接口封装)
 <br>
 └── upload        (oss接口封装)
+
+# 拉取镜像
+```bash
+
+docker pull mysql
+
+docker pull elasticsearch:8.17.0
+
+docker pull redis
+```
+# 运行容器
+```shell
+
+docker run -itd --name mysql -p 3307:3306 -e  MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=blog_db -d mysql
+
+docker run --name es -p 127.0.0.1:9200:9200 -e "discovery.type=single-node" -e "xpack.security.http.ssl.enabled=false" -e "xpack.license.self_generated.type=trial" -e "xpack.security.enabled=false" -e ES_JAVA_OPTS="-Xms84m -Xmx512m" -d elasticsearch:8.17.0
+
+docker run --name redis -p 6379:6379 -d redis
+```

@@ -27,9 +27,9 @@ jwt:
   issuer: go_blog
 mysql:
   host: localhost
-  port: 3306
+  port: 3307
   config: charset=utf8mb4&parseTime=True&loc=Local
-  db_name: go_blog
+  db_name: my_blog
   username: root
   password: root
   max_idle_conns: 10

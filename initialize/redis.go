@@ -19,5 +19,6 @@ func ConnectRedis() redis.Client {
 		global.Log.Error("Failed to connect to Redis:", zap.Error(err))
 		os.Exit(1)
 	}
+	global.Log.Info("Connected to Redis")
 	return *client
 }

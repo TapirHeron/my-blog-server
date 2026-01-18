@@ -28,5 +28,6 @@ func ConnectES() *elasticsearch.TypedClient {
 		global.Log.Error("Failed to connect to Elasticsearch", zap.Error(err))
 		os.Exit(1)
 	}
+	global.Log.Info("Connected to Elasticsearch")
 	return client
 }

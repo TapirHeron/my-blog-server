@@ -25,5 +25,6 @@ func InitGorm() *gorm.DB {
 	}
 	sqlDB.SetMaxIdleConns(mysqlConfig.MaxIdleConns)
 	sqlDB.SetMaxOpenConns(mysqlConfig.MaxOpenConns)
+	global.Log.Info("Connected to Mysql")
 	return db
 }
